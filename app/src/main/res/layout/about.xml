@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/about_layout"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="50dp"
+    android:paddingBottom="50dp"
+    tools:context="com.ruogu.codersanswerpro.MainActivity$PlaceholderFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_title"
+        android:id="@+id/text_about"
+        android:layout_gravity="center_horizontal"
+        android:autoText="false"
+        android:textSize="40sp"
+        android:textColor="@color/main_theme"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/about_list"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/text_about"
+        android:layout_centerHorizontal="true"
+        android:clickable="false">
+
+    </ListView>
+
+</RelativeLayout>
